@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace numero_positivo
+namespace numero_primo
 {
     class Program
     {
@@ -12,13 +12,16 @@ namespace numero_positivo
             numero = int.Parse(Console.ReadLine());
 
 
-            if (numero % 2 == 0) {
-                Console.WriteLine("El numero ingresado es par");
+            if (numero % 1 == 0)
+            {
+                Console.WriteLine("El numero ingresado es primo");
             }
-             else{
-                Console.WriteLine("El numero ingresado es impar");
+            else
+            {
+                Console.WriteLine("El numero ingresado no es primo :(");
             }
 
         }
     }
 }
+       
